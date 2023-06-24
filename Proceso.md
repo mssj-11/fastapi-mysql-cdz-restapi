@@ -25,7 +25,11 @@ pip install fastapi
 ```
 ##  Instalación de SQLAlchemy:
 ```sh
-pip install fastapi
+pip install sqlalchemy
+```
+##  Instalación de MySQL:
+```sh
+pip install pymysql
 ```
 Listar los paquetes instalados
 ```sh
@@ -40,4 +44,15 @@ pip install uvicorn
 ### Iniciando la App de Python
 ```sh
 uvicorn app:app
+```
+Actualización automática:
+```sh
+uvicorn app:app --reload
+```
+
+
+#   Solución a ERRORES
+### Error cryptography
+```
+pip install cryptography
 ```
