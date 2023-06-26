@@ -23,9 +23,9 @@ deactivate
 ```sh
 pip install fastapi
 ```
-##  Instalación de SQLAlchemy:
+##  Instalación de SQLAlchemy V.1.4.22:
 ```sh
-pip install sqlalchemy
+pip install sqlalchemy==1.4.22
 ```
 ##  Instalación de MySQL:
 ```sh
@@ -50,6 +50,10 @@ Actualización automática:
 uvicorn app:app --reload
 ```
 
+##  Listar los paquetes:
+```sh
+pip freeze > requeriments.txt
+```
 
 #   Solución a ERRORES
 ### Error cryptography
